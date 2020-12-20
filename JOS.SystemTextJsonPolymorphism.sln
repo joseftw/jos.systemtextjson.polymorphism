@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0227596-8483-422D-9C40-040B2091956E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{88091143-5E7B-4D96-99BE-572145B4FEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.SystemTextJsonPolymorphism", "src\JOS.SystemTextJsonPolymorphism\JOS.SystemTextJsonPolymorphism.csproj", "{2FA464F4-CA35-4880-8A29-B0B9CA19E122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.SystemTextJsonPolymorphism.Tests", "test\JOS.SystemTextJsonPolymorphism.Tests\JOS.SystemTextJsonPolymorphism.Tests.csproj", "{A0DCE724-CDD6-48B9-ADD3-3740B88B0236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA464F4-CA35-4880-8A29-B0B9CA19E122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA464F4-CA35-4880-8A29-B0B9CA19E122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA464F4-CA35-4880-8A29-B0B9CA19E122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA464F4-CA35-4880-8A29-B0B9CA19E122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DCE724-CDD6-48B9-ADD3-3740B88B0236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DCE724-CDD6-48B9-ADD3-3740B88B0236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DCE724-CDD6-48B9-ADD3-3740B88B0236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DCE724-CDD6-48B9-ADD3-3740B88B0236}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FA464F4-CA35-4880-8A29-B0B9CA19E122} = {E0227596-8483-422D-9C40-040B2091956E}
+		{A0DCE724-CDD6-48B9-ADD3-3740B88B0236} = {88091143-5E7B-4D96-99BE-572145B4FEBE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C829BFE0-8CF9-49CC-B93F-D4382C4B2B5F}
+	EndGlobalSection
+EndGlobal

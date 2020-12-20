@@ -1,0 +1,41 @@
+[
+  {
+    "type": "car",
+    "name": "Josefs Car",
+    "model": {
+      "brand": "Ferrari",
+      "name": "458 Spider",
+      "color": "red",
+      "horsepower": 562
+    },
+    "properties": {
+      "wheels": 4,
+      "passengers": 2,
+      "rims": {
+        "name": "Nutek"
+      }
+    }
+  },
+  {
+    "type": "truck",
+    "name": "Josefs Truck",
+    "model": {
+      "brand": "Volvo",
+      "name": "FH",
+      "color": "black",
+      "horsepower": 540
+    },
+    "trailer": {
+      "name": "my trailer",
+      "wheels": 8
+    },
+    "properties": {
+      "wheels": 8,
+      "passengers": 2,
+      "towingCapacity": {
+        "maxKg": 18000,
+        "maxPounds": 39683
+      }
+    }
+  }
+]
